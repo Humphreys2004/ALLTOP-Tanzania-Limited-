@@ -140,7 +140,7 @@ nav a {
 
 /* CALL BUTTON */
 .call-btn {
-    text-decoration: none;
+    text-decoration: none !important;
     position: fixed;
     bottom: 20px;
     right: 20px;
