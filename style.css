@@ -133,7 +133,7 @@ nav.active {
 }
 
 .card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-8px);
     background-color: #00c6ff;
     color: white;
 }
