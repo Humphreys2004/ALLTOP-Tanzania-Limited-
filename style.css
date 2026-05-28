@@ -194,3 +194,11 @@ nav.active {
         align-items: center;
     }
 }
+/* ALTERNATING BACKGROUNDS */
+.section:nth-child(even) {
+    background: #ffffff;
+}
+
+.section:nth-child(odd) {
+    background: #f5f7fa;
+}
