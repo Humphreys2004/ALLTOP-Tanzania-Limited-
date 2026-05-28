@@ -111,6 +111,10 @@ nav.active {
     padding: 50px;
     text-align: center;
 }
+.section.highlight {
+    background: linear-gradient(to right, #1e90ff, #0a2540);
+    color: white;
+}
 
 /* CARDS */
 .cards {
