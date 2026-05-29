@@ -76,6 +76,13 @@ nav a:hover {
         display: block;
     }
 }
+/* SLIDER IMAGES */
+@keyframes slideImages {
+  0% { background-image: url("photos/panel.jpeg"); }
+  33% { background-image: url("photos/inverter.jpg"); }
+  66% { background-image: url("photos/pumps.jpg"); }
+  100% { background-image: url("photos/panel.jpeg"); }
+}
 
 /* HERO */
 .hero {
