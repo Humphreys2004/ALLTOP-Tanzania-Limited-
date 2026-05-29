@@ -111,7 +111,18 @@ nav.active {
     padding: 50px;
     text-align: center;
 }
-.section.highlight {
+
+/* ALTERNATING BACKGROUNDS */
+.section:nth-of-type(even) {
+    background: #ffffff;
+}
+
+.section:nth-of-type(odd) {
+    background: #f5f7fa;
+}
+
+/* HIGHLIGHT SECTION */
+.highlight {
     background: linear-gradient(to right, #1e90ff, #0a2540);
     color: white;
 }
@@ -197,12 +208,4 @@ nav.active {
         flex-direction: column;
         align-items: center;
     }
-}
-/* ALTERNATING BACKGROUNDS */
-.section:nth-child(even) {
-    background: #ffffff;
-}
-
-.section:nth-child(odd) {
-    background: #f5f7fa;
 }
