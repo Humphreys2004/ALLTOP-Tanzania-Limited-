@@ -170,10 +170,11 @@ nav a:hover {
 .call-btn {
     display: inline-block;
     margin: 10px;
+    position: fixed;
     padding: 12px 25px;
     background: #28a745;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 50px;
     text-decoration: none;
 }
 
