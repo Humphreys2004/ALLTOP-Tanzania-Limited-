@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ALLTOP Tanzania Limited</title>
+
+    <meta name="description" content="Solar installation, backup systems and maintenance in Tanzania.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="photos/logo.png">
+        <span>ALLTOP Tanzania</span>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <nav id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h2>Powering Tanzania with Solar Energy</h2>
+        <p>Reliable • Affordable • Sustainable</p>
+        <a href="https://wa.me/255750734555" class="btn">💬 Get Free Quote</a>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+    <h2>Our Services</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Solar Installation</h3>
+            <p>Professional solar system installation.</p>
+        </div>
+
+        <div class="card">
+            <h3>Backup Systems</h3>
+            <p>Reliable inverter & battery systems.</p>
+        </div>
+
+        <div class="card">
+            <h3>Maintenance</h3>
+            <p>Repair and servicing solutions.</p>
+        </div>
+    </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="section highlight">
+    <h2>Why Choose Us</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>✔ Experienced Team</h3>
+            <p>Professional solar experts.</p>
+        </div>
+
+        <div class="card">
+            <h3>✔ Quality Products</h3>
+            <p>Durable and high performance.</p>
+        </div>
+
+        <div class="card">
+            <h3>✔ Nationwide Service</h3>
+            <p>We serve across Tanzania.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section dark">
+    <h2>About Us</h2>
+    <p>ALLTOP Tanzania Limited delivers reliable solar solutions across Tanzania.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+
+    <p>Email: info@alltop.co.tz</p>
+    <p>Phone: +255 750 734 555</p>
+
+    <a href="tel:+255750734555" class="call-btn">📞 Call Now</a>
+    <a href="https://wa.me/255750734555" class="btn">WhatsApp</a>
+
+    <div class="socials">
+        <a href="https://www.facebook.com/MaxwellHumphrey" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/MaxwellSolutions5" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 ALLTOP Tanzania Limited</p>
+</footer>
+
+<script>
+const toggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("nav-menu");
+
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+
+document.querySelectorAll("#nav-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        nav.classList.remove("active");
+    });
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+    });
+});
+</script>
+
+</body>
+</html>
